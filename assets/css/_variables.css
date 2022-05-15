@@ -1,0 +1,16 @@
+html {
+  --white: #FFFFFF;
+  --black: #000000;
+  --yellow: #F1CDB3;
+  --grey: #CDCDCD;
+  --grey-dark: #B2B2B2;;
+  --light: #FAFAFA;
+  --dark: #292929;
+  --dark-second: #4C4C4C;
+  --body-back: #292929;
+  --z-1: 0;
+  --z-2: 0;
+  --z-3: 0;
+  --z-4: 0;
+  --z-5: 0;
+}
