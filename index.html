@@ -11,11 +11,11 @@
   <div class="wrapper">
     <div class="container">
       <div class="slider">
-        <input type="checkbox" name="check-1" id="check-1">
-        <input type="checkbox" name="check-2" id="check-2">
-        <input type="checkbox" name="check-3" id="check-3">
-        <input type="checkbox" name="check-4" id="check-4">
-        <input type="checkbox" name="check-5" id="check-5">
+        <input type="radio" class="slider__input" name="check" id="check-1" checked>
+        <input type="radio" class="slider__input" name="check" id="check-2">
+        <input type="radio" class="slider__input" name="check" id="check-3">
+        <input type="radio" class="slider__input" name="check" id="check-4">
+        <input type="radio" class="slider__input" name="check" id="check-5">
         <ul class="slider__list-img">
           <li class="slider__item-img">
             <div class="slider__img">
@@ -70,11 +70,23 @@
             </div>
           </li>
         </ul>
-        <label for="check-1"></label>
-        <label for="check-2"></label>
-        <label for="check-3"></label>
-        <label for="check-4"></label>
-        <label for="check-5"></label>
+        <div class="slider__list-label">
+          <label for="check-1" class="slider__label">
+            <div class="slider__label-inner" aria-label="Button for slide 1"></div>
+          </label>
+          <label for="check-2" class="slider__label">
+            <div class="slider__label-inner" aria-label="Button for slide 2"></div>
+          </label>
+          <label for="check-3" class="slider__label">
+            <div class="slider__label-inner" aria-label="Button for slide 3"></div>
+          </label>
+          <label for="check-4" class="slider__label">
+            <div class="slider__label-inner" aria-label="Button for slide 4"></div>
+          </label>
+          <label for="check-5" class="slider__label">
+            <div class="slider__label-inner" aria-label="Button for slide 5"></div>
+          </label>
+        </div>
       </div>
     </div>
   </div>
